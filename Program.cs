@@ -192,7 +192,7 @@ class Program
 
         for (int i = 0; i < nombres.Length; i++)
         {
-            Console.Write($"Horas de {nombres[i]}: ");                  //Para la sintaxis de algunos console.writeline como este se utilizo ayuda de IA. Ejercicio 4
+            Console.Write($"Horas de {nombres[i]}: ");                 
             horas_laboradas[i] = double.Parse(Console.ReadLine());
         }
 
